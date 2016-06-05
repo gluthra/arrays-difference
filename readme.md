@@ -1,25 +1,25 @@
 # uniq-array
 
-Returns an array by removing duplicate elements
+Returns an array containing those elements which are present in first array and not in others
 
 
 ## Installation
 
 ```sh
-$ npm install uniq-array
+$ npm install arrays-difference
 ```
 
 
 ## Usage
 
 ```js
-var uniqArray = require('uniq-array');
+var arrDiff = require('arrays-difference');
 
-uniqArray([1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3]);
-//=> [1, 2, 3]
+arrDiff([1, 2], [2, 3, 4]);
+//=> [1]
 
-uniqArray(['Amenda', 'Bob', 'Bob', 'Amenda', 'Luicy']);
-//=> ['Amenda', 'Bob', 'Luicy']
+arrDiff([21, 27, 29, 31], [13, 4], [41, 27, 30], [21]);
+//=> [29, 31]
 ```
 
 
