@@ -1,0 +1,22 @@
+{
+  "name": "arrays-difference",
+  "version": "1.0.0",
+  "description": "Returns an array containing those elements which are present in first array and not in others",
+  "license": "MIT",
+  "author": {
+    "name": "Gaurav Luthra",
+    "email": "luthra.zenith@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": "https://github.com/gluthra/arrays-difference",
+  "keywords": [
+    "arr",
+    "array",
+    "arrays",
+    "difference",
+    "differ",
+    "diff"
+  ]
+}
